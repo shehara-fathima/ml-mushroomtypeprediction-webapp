@@ -1,0 +1,38 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# PyCharm specific files
+.idea/
+
+# Dataset files (You might want to store them elsewhere like S3, Google Drive, or use DVC)
+*.csv
+*.xlsx
+*.h5
+*.pkl
+*.npz
+*.json
+
+# Model files (Do not commit large models, instead use version control for models like DVC)
+*.h5
+*.pkl
+*.ckpt
+*.pytorch
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Cache files
+*.cache
